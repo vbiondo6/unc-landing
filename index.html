@@ -8,6 +8,23 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="unc.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Fallback styles in case external CSS doesn't load */
+        body { font-family: 'Inter', sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; margin: 0; padding: 0; min-height: 100vh; }
+        .hero { padding: 120px 20px 80px; text-align: center; }
+        .hero-title { font-size: 3.5rem; font-weight: 700; margin-bottom: 20px; }
+        .hero-subtitle { font-size: 1.25rem; margin-bottom: 40px; opacity: 0.9; }
+        .features { background: white; padding: 100px 20px; color: #2c3e50; }
+        .section-title { font-size: 2.5rem; text-align: center; margin-bottom: 60px; font-weight: 700; }
+        .feature-card { background: #f8fafc; padding: 40px 30px; border-radius: 20px; margin-bottom: 40px; text-align: center; border: 1px solid #e2e8f0; }
+        .feature-card h3 { font-size: 1.5rem; margin-bottom: 15px; color: #2c3e50; font-weight: 600; }
+        .download { background: white; padding: 100px 20px; text-align: center; color: #2c3e50; }
+        .navbar { background: rgba(255, 255, 255, 0.95); position: fixed; top: 0; width: 100%; z-index: 1000; }
+        .nav-container { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: space-between; align-items: center; height: 70px; }
+        .brand-name { font-size: 24px; font-weight: 700; color: #2c3e50; }
+        .hero-unc { max-width: 300px; height: auto; border-radius: 20px; margin: 30px auto; display: block; }
+        @media (max-width: 768px) { .hero-title { font-size: 2.5rem; } .section-title { font-size: 2rem; } }
+    </style>
 </head>
 <body>
     <nav class="navbar">
