@@ -69,19 +69,34 @@ Replace `unc.png` with your own unc character image. The design works best with:
 - High contrast for visibility
 - Consistent branding colors
 
+## GitHub Setup
+
+Before deploying to Vercel or other platforms, upload your code to GitHub:
+
+1. Create a new repository on GitHub.com
+2. Copy the repository URL (e.g., `https://github.com/yourusername/unc-landing.git`)
+3. Run these commands in your terminal:
+```bash
+git remote add origin YOUR_REPOSITORY_URL
+git push -u origin main
+```
+
 ## Deployment
 
-### Option 1: Static Hosting (Recommended)
-Deploy to any static hosting service:
-- **Vercel**: Connect your GitHub repo for automatic deployments
+### Option 1: Vercel (Recommended)
+1. Push your code to GitHub (see below)
+2. Go to [vercel.com](https://vercel.com) and sign up/login
+3. Click "New Project" and import your GitHub repository
+4. Vercel will automatically detect your static site and deploy it
+5. Your site will be live at a URL like `your-project.vercel.app`
+
+### Option 2: Other Static Hosting
 - **Netlify**: Drag & drop upload or connect to Git repository
 - **GitHub Pages**: Enable Pages in your repository settings
 - **Firebase Hosting**: Use Firebase CLI to deploy
 
-### Option 2: Traditional Hosting
+### Option 3: Traditional Hosting
 Upload all files to your web server via FTP or file manager.
-
-### Option 3: CDN
 Host on a CDN like Cloudflare Pages for global distribution.
 
 ## Browser Support
