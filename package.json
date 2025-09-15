@@ -1,0 +1,30 @@
+{
+  "name": "unc-ai-landing",
+  "version": "1.0.0",
+  "description": "Landing page for UNC AI - Virtual Wise Mentor Focus App",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'Static site - no build required'",
+    "preview": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "landing-page",
+    "productivity",
+    "focus-app",
+    "mentor",
+    "ai"
+  ],
+  "author": "UNC AI Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not ie <= 11"
+  ]
+}
+
